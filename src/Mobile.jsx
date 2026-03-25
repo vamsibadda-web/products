@@ -1,10 +1,11 @@
 import React from "react";
-import MobileImg from "./Mobile.jpg";
-function Mobile(){
-    return(
-        <div>
-            <img src={MobileImg} alt="Mobile"/>
-        </div>
-    )
+import HeadphoneImg from "./assets/images/Headphone.jpg";
+
+function Headphone() {
+  return (
+    <div>
+      <img src={HeadphoneImg} alt="Headphone" />
+    </div>
+  );
 }
-export default Mobile;
+export default Headphone;
